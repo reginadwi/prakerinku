@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Reginadwi
+                    ReginaDwiApriliyanti
                 </div>
 
                 <div class="links">
