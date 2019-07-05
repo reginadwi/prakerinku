@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 
 class siswacontroller extends Controller
@@ -13,7 +12,17 @@ class siswacontroller extends Controller
      */
     public function index()
     {
-        $data =['Ani','astri','tony','gina','ari','guntur','dita','sinta','yono','wety'];
+        $data =[
+                ["nama"=>"regina",
+                "umur"=>"17",
+                "hoby"=>['gaming','tidur'],
+                "guru"=>[
+                        "nama1" =>"ujang",
+                        "nama2"=>"usep"
+                        
+                ]
+                ],
+            ];
         return $data;
     }
 

@@ -1,0 +1,13 @@
+{
+	
+	"key" : "value",
+	"nama": "Regina",
+	"umur": 17,
+	"Hobby" : [
+				"coding","main"
+			],
+	"guru" : {
+		"nama1" : "candra",
+		"nama2"  :" ute"
+	}
+}
