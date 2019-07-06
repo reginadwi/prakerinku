@@ -38,7 +38,7 @@
                 <nav class="classy-navbar justify-content-between" id="magNav">
 
                     <!-- Nav brand -->
-                    <a href="/" class="nav-brand"><img src="{{('assets/frontend/img/core-img/logo.png')}}" alt=""></a>
+                    <a href="index.html" class="nav-brand"><img src="{{('assets/frontend/img/core-img/logo.png')}}" alt=""></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">

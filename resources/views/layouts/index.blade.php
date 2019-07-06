@@ -149,10 +149,10 @@
                         <div class="post-content text-center">
                             <div class="post-meta" data-animation="fadeInUp" data-delay="100ms">
                                 <a href="#">MAY 8, 2018</a>
-                                <a href="archive.html">lifestyle</a>
+                                <a href="/archive">lifestyle</a>
                             </div>
-                            <a href="video-post.html" class="post-title" data-animation="fadeInUp" data-delay="300ms">Party Jokes Startling But Unnecessary</a>
-                            <a href="video-post.html" class="video-play" data-animation="bounceIn" data-delay="500ms"><i class="fa fa-play"></i></a>
+                            <a href="/video-post" class="post-title" data-animation="fadeInUp" data-delay="300ms">Party Jokes Startling But Unnecessary</a>
+                            <a href="/video-post" class="video-play" data-animation="bounceIn" data-delay="500ms"><i class="fa fa-play"></i></a>
                         </div>
                     </div>
                 </div>
@@ -161,7 +161,7 @@
 
         <!-- Single Blog Post -->
         <div class="hero-blog-post bg-img bg-overlay" style="{{('assets/frontend/background-image: 
-        url(img/bg-img/2.jpg')}};">
+        url(img/bg-img/6.jpg')}};">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-12">
@@ -169,10 +169,10 @@
                         <div class="post-content text-center">
                             <div class="post-meta" data-animation="fadeInUp" data-delay="100ms">
                                 <a href="#">MAY 8, 2018</a>
-                                <a href="archive.html">lifestyle</a>
+                                <a href="/archive">lifestyle</a>
                             </div>
-                            <a href="video-post.html" class="post-title" data-animation="fadeInUp" data-delay="300ms">Party Jokes Startling But Unnecessary</a>
-                            <a href="video-post.html" class="video-play" data-animation="bounceIn" data-delay="500ms"><i class="fa fa-play"></i></a>
+                            <a href="/video-post" class="post-title" data-animation="fadeInUp" data-delay="300ms">Party Jokes Startling But Unnecessary</a>
+                            <a href="/video-post" class="video-play" data-animation="bounceIn" data-delay="500ms"><i class="fa fa-play"></i></a>
                         </div>
                     </div>
                 </div>
@@ -180,7 +180,7 @@
         </div>
 
         <!-- Single Blog Post -->
-        <div class="hero-blog-post bg-img bg-overlay" style="{{('assets/frontend/background-image: url(img/bg-img/3.jpg')}};">
+        <div class="hero-blog-post bg-img bg-overlay" style="{{('assets/frontend/background-image: url(img/bg-img/8.jpg')}};">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-12">
@@ -188,10 +188,10 @@
                         <div class="post-content text-center">
                             <div class="post-meta" data-animation="fadeInUp" data-delay="100ms">
                                 <a href="#">MAY 8, 2018</a>
-                                <a href="archive.html">lifestyle</a>
+                                <a href="/archive">lifestyle</a>
                             </div>
-                            <a href="video-post.html" class="post-title" data-animation="fadeInUp" data-delay="300ms">Party Jokes Startling But Unnecessary</a>
-                            <a href="video-post.html" class="video-play" data-animation="bounceIn" data-delay="500ms"><i class="fa fa-play"></i></a>
+                            <a href="/video-post" class="post-title" data-animation="fadeInUp" data-delay="300ms">Party Jokes Startling But Unnecessary</a>
+                            <a href="/video-post" class="video-play" data-animation="bounceIn" data-delay="500ms"><i class="fa fa-play"></i></a>
                         </div>
                     </div>
                 </div>
