@@ -12,7 +12,7 @@
     <title>Mag - Video &amp; Magazine HTML Template</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="{{('assets/frontend/img/core-img/favicon.ico')}}">
+    <link rel="icon" href="{{('assets/frontend/img/core-img/r.icon')}}">
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="{{('assets/frontend/style.css')}}">
