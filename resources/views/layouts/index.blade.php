@@ -56,7 +56,7 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li class="active"><a href="/">Home</a></li>
                                     <li><a href="/archive">Archive</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
