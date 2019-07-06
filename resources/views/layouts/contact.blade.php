@@ -186,10 +186,10 @@
                         </div>
 
                         <div class="contact-information mb-30">
-                            <p>Aku tak ingin kau menjadi dilan.
-                                karena sehebat apapun dilan merangkai kata,
-                                sepandai apapun dia membuatmu tertawa,
-                                SEMUA PERCUMA.
+                            <p>Aku tak ingin kau menjadi dilan.<br>
+                                karena sehebat apapun dilan merangkai kata,<br>
+                                sepandai apapun dia membuatmu tertawa,<br>
+                                SEMUA PERCUMA.<br>
                                 jika pada akhirnya milea bukan takdirnya:)
                             </p>
 
