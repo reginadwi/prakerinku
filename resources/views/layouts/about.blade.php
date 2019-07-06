@@ -58,61 +58,61 @@
                             <div class="classynav">
                                 <ul>
                                     <li class="active"><a href="/index">Home</a></li>
-                                    <li><a href="archive.html">Archive</a></li>
+                                    <li><a href="/archive">Archive</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
                                             <li><a href="/index">Home</a></li>
-                                            <li><a href="archive.html">Archive</a></li>
-                                            <li><a href="video-post.html">Single Video Post</a></li>
-                                            <li><a href="single-post.html">Single Post</a></li>
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="submit-video.html">Submit Video</a></li>
-                                            <li><a href="login.html">Login</a></li>
+                                            <li><a href="/archive">Archive</a></li>
+                                            <li><a href="/video-post">Single Video Post</a></li>
+                                            <li><a href="/single-post">Single Post</a></li>
+                                            <li><a href="/about">About Us</a></li>
+                                            <li><a href="/contact">Contact</a></li>
+                                            <li><a href="/submit-video">Submit Video</a></li>
+                                            <li><a href="/login">Login</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#">Mega</a>
                                         <div class="megamenu">
                                             <ul class="single-mega cn-col-4">
                                                 <li><a href="/index">Home</a></li>
-                                                <li><a href="archive.html">Archive</a></li>
-                                                <li><a href="video-post.html">Single Video Post</a></li>
-                                                <li><a href="single-post.html">Single Post</a></li>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="login.html">Login</a></li>
+                                                <li><a href="/archive">Archive</a></li>
+                                                <li><a href="/video-post">Single Video Post</a></li>
+                                                <li><a href="/single-post">Single Post</a></li>
+                                                <li><a href="/about">About Us</a></li>
+                                                <li><a href="/contact">Contact</a></li>
+                                                <li><a href="/login">Login</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
                                                 <li><a href="/index">Home</a></li>
-                                                <li><a href="archive.html">Archive</a></li>
-                                                <li><a href="video-post.html">Single Video Post</a></li>
-                                                <li><a href="single-post.html">Single Post</a></li>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="login.html">Login</a></li>
+                                                <li><a href="/archive">Archive</a></li>
+                                                <li><a href="/video-post">Single Video Post</a></li>
+                                                <li><a href="/single-post">Single Post</a></li>
+                                                <li><a href="/about">About Us</a></li>
+                                                <li><a href="/contact">Contact</a></li>
+                                                <li><a href="/login">Login</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
                                                 <li><a href="/index">Home</a></li>
-                                                <li><a href="archive.html">Archive</a></li>
-                                                <li><a href="video-post.html">Single Video Post</a></li>
-                                                <li><a href="single-post.html">Single Post</a></li>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="login.html">Login</a></li>
+                                                <li><a href="/archive">Archive</a></li>
+                                                <li><a href="/video-post">Single Video Post</a></li>
+                                                <li><a href="/single-post">Single Post</a></li>
+                                                <li><a href="/about">About Us</a></li>
+                                                <li><a href="/contact">Contact</a></li>
+                                                <li><a href="/login">Login</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
                                                 <li><a href="/index">Home</a></li>
-                                                <li><a href="archive.html">Archive</a></li>
-                                                <li><a href="video-post.html">Single Video Post</a></li>
-                                                <li><a href="single-post.html">Single Post</a></li>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="login.html">Login</a></li>
+                                                <li><a href="/archive">Archive</a></li>
+                                                <li><a href="/video-post">Single Video Post</a></li>
+                                                <li><a href="/single-post">Single Post</a></li>
+                                                <li><a href="/about">About Us</a></li>
+                                                <li><a href="/contact">Contact</a></li>
+                                                <li><a href="/login">Login</a></li>
                                             </ul>
                                         </div>
                                     </li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="/about">About</a></li>
+                                    <li><a href="/contact">Contact</a></li>
                                 </ul>
                             </div>
                             <!-- Nav End -->
@@ -127,9 +127,9 @@
                                 </form>
                             </div>
                             <!-- Login -->
-                            <a href="login.html" class="login-btn"><i class="fa fa-user" aria-hidden="true"></i></a>
+                            <a href="/login" class="login-btn"><i class="fa fa-user" aria-hidden="true"></i></a>
                             <!-- Submit Video -->
-                            <a href="submit-video.html" class="submit-video"><span><i class="fa fa-cloud-upload"></i></span> <span class="video-text">Submit Video</span></a>
+                            <a href="/submit-video" class="submit-video"><span><i class="fa fa-cloud-upload"></i></span> <span class="video-text">Submit Video</span></a>
                         </div>
                     </div>
                 </nav>
@@ -139,12 +139,12 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### Breadcrumb Area Start ##### -->
-    <section class="breadcrumb-area bg-img bg-overlay" style="{{('assets/frontend/background-image: url(img/bg-img/40.jpg);')}}">
+    <section class="breadcrumb-area bg-img bg-overlay" style="{{('assets/frontend/background-image: url(img/bg-img/40.jpg)')}};">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="breadcrumb-content">
-                        <h2>Contact Us</h2>
+                        <h2>ABOUT US</h2>
                     </div>
                 </div>
             </div>
@@ -160,7 +160,7 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="/index"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                            <li class="breadcrumb-item active" aria-current="page">About</li>
                         </ol>
                     </nav>
                 </div>
@@ -169,88 +169,98 @@
     </div>
     <!-- ##### Breadcrumb Area End ##### -->
 
-    <!-- ##### Contact Area Start ##### -->
-    <section class="contact-area">
+    <!-- ##### About Us Area Start ##### -->
+    <section class="about-us-area">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-xl-8">
-                    <div class="contact-content-area bg-white mb-30 p-30 box-shadow">
-                        <!-- Google Maps -->
-                        <div class="map-area mb-30">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22236.40558254599!2d-118.25292394686001!3d34.057682914027104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z4Kay4Ka4IOCmj-CmnuCnjeCmnOCnh-CmsuCnh-CmuCwg4KaV4KeN4Kav4Ka-4Kay4Ka_4Kar4KeL4Kaw4KeN4Kao4Ka_4Kav4Ka84Ka-LCDgpq7gpr7gprDgp43gppXgpr_gpqgg4Kav4KeB4KaV4KeN4Kak4Kaw4Ka-4Ka34KeN4Kaf4KeN4Kaw!5e0!3m2!1sbn!2sbd!4v1532328708137" allowfullscreen></iframe>
-                        </div>
-
+                    <!-- About Us Content -->
+                    <div class="about-us-content bg-white mb-30 p-30 box-shadow">
                         <!-- Section Title -->
                         <div class="section-heading">
-                            <h5>Contact Info</h5>
+                            <h5>About Us</h5>
                         </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursus quam at scelerisque. Aliquam quis varius orci, vel tincidunt est. Proin ac tincidunti, atmots interdum erat. Maecenas neque lorem, aliquet in tempus non, efficitur ac neque.</p>
+                        <p>Phasellus elefend odio quis dolor pretium condimentu. Morbi quis mauris ipsum urna eu fermentum bentons Suspendisse auctor magna ac porta ornare. Fusce finibus nibh at lacinia lobortis.</p>
+                        <ul>
+                            <li><i class="fa fa-check"></i> Vivamus starlord finibus, dictum massa eget, suscipit metus nami at tristique elit started.</li>
+                            <li><i class="fa fa-check"></i> Cras ipsum libero, suscipit vitamin tellus vitae, feugiat ultricies purus praesent gamora.</li>
+                            <li><i class="fa fa-check"></i> Proin ex sem, ultrices drax the sit amet, facilisis destroyer et odio profession risusest.</li>
+                            <li><i class="fa fa-check"></i> Morbi maximus mauris eget groot dignissim, in laoreet justo facilisis.</li>
+                        </ul>
+                        <img class="mt-15" src="{{('assets/frontend/img/bg-img/35.jpg')}}" alt="">
 
-                        <div class="contact-information mb-30">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursus quam at scelerisque. Aliquam quis varius orci, vel tincidunt est. Proin ac tincidunti, atmots interdum erat. Maecenas neque lorem, aliquet in tempus non, efficitur ac neque.</p>
-
-                            <!-- Single Contact Info -->
-                            <div class="single-contact-info d-flex align-items-center">
-                                <div class="icon mr-15">
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                </div>
-                                <div class="text">
-                                    <p>Our Office:</p>
-                                    <h6>Cibaduyut Bloklumbung, Bandung provinsi Jawa Barat, Indonesia</h6>
+                        <!-- Team Member Area -->
+                        <div class="section-heading mt-30">
+                            <h5>Our Team</h5>
+                        </div>
+                        
+                        <!-- Single Team Member -->
+                        <div class="single-team-member d-flex align-items-center">
+                            <div class="team-member-thumbnail">
+                                <img src="{{('assets/frontend/img/bg-img/36.jpg')}}" alt="">
+                                <div class="social-btn">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                                 </div>
                             </div>
-
-                            <!-- Single Contact Info -->
-                            <div class="single-contact-info d-flex align-items-center">
-                                <div class="icon mr-15">
-                                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                                </div>
-                                <div class="text">
-                                    <p>Email:</p>
-                                    <h6>rdwiapriliyanti@gmail.com</h6>
-                                </div>
-                            </div>
-
-                            <!-- Single Contact Info -->
-                            <div class="single-contact-info d-flex align-items-center">
-                                <div class="icon mr-15">
-                                    <i class="fa fa-phone" aria-hidden="true"></i>
-                                </div>
-                                <div class="text">
-                                    <p>Phone:</p>
-                                    <h6>(+62) 08996994739</h6>
-                                </div>
+                            <div class="team-member-content">
+                                <h6>Mrs. Susan Monroe</h6>
+                                <span>Reporter</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursea quam at scelerisque.</p>
                             </div>
                         </div>
-
-                        <!-- Section Title -->
-                        <div class="section-heading">
-                            <h5>GET IN TOUCH</h5>
-                        </div>
-
-                        <!-- Contact Form Area -->
-                        <div class="contact-form-area">
-                            <form action="#" method="post">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="name" placeholder="Name">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" id="email" placeholder="E-mail">
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-group">
-                                            <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <button class="btn mag-btn mt-30" type="submit">Send</button>
-                                    </div>
+                        
+                        <!-- Single Team Member -->
+                        <div class="single-team-member d-flex align-items-center">
+                            <div class="team-member-thumbnail">
+                                <img src="{{('assets/frontend/img/bg-img/37.jpg')}}" alt="">
+                                <div class="social-btn">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                                 </div>
-                            </form>
+                            </div>
+                            <div class="team-member-content">
+                                <h6>Mr. Luke Garner</h6>
+                                <span>Editor in Chief</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursea quam at scelerisque.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Single Team Member -->
+                        <div class="single-team-member d-flex align-items-center">
+                            <div class="team-member-thumbnail">
+                                <img src="img/bg-img/38.jpg" alt="">
+                                <div class="social-btn">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-member-content">
+                                <h6>Ms. Elena Korikova</h6>
+                                <span>Marketer</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursea quam at scelerisque.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Single Team Member -->
+                        <div class="single-team-member d-flex align-items-center">
+                            <div class="team-member-thumbnail">
+                                <img src="img/bg-img/39.jpg" alt="">
+                                <div class="social-btn">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-member-content">
+                                <h6>Mr. Tom Wellington</h6>
+                                <span>Photographer</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursea quam at scelerisque.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -293,7 +303,7 @@
 
                         <!-- Sidebar Widget -->
                         <div class="single-sidebar-widget">
-                            <a href="#" class="add-img"><img src="{{('assets/frontend/img/bg-img/add2.p')}}ng" alt=""></a>
+                            <a href="#" class="add-img"><img src="img/bg-img/add2.png" alt=""></a>
                         </div>
 
                         <!-- Sidebar Widget -->
@@ -317,7 +327,7 @@
             </div>
         </div>
     </section>
-    <!-- ##### Contact Area End ##### -->
+    <!-- ##### About Us Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area">
@@ -327,7 +337,7 @@
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="footer-widget">
                         <!-- Logo -->
-                        <a href="/index" class="foo-logo"><img src="{{('assets/frontend/img/core-img/logo2.png')}}" alt=""></a>
+                        <a href="index.html" class="foo-logo"><img src="{{('assets/frontend/img/core-img/logo2.png')}}" alt=""></a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <div class="footer-social-info">
                             <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -370,7 +380,7 @@
                                 <img src="{{('assets/frontend/img/bg-img/12.jpg')}}" alt="">
                             </div>
                             <div class="post-content">
-                                <a href="single-post.html" class="post-title">Take A Romantic Break In A Boutique Hotel</a>
+                                <a href="/single-post" class="post-title">Take A Romantic Break In A Boutique Hotel</a>
                                 <div class="post-meta d-flex justify-content-between">
                                     <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 34</a>
                                     <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</a>
@@ -384,7 +394,7 @@
                                 <img src="{{('assets/frontend/img/bg-img/13.jpg')}}" alt="">
                             </div>
                             <div class="post-content">
-                                <a href="single-post.html" class="post-title">Travel Prudently Luggage And Carry On</a>
+                                <a href="/single-post" class="post-title">Travel Prudently Luggage And Carry On</a>
                                 <div class="post-meta d-flex justify-content-between">
                                     <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 34</a>
                                     <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</a>
@@ -434,9 +444,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                     <div class="col-12 col-sm-6">
                         <nav class="footer-nav">
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Privacy</a></li>
-                                <li><a href="#">Advertisement</a></li>
+                                <li><a href="/index">Home</a></li>
+                                <li><a href="/Privacy">Privacy</a></li>
+                                <li><a href="/Advertisement">Advertisement</a></li>
                                 <li><a href="/contact">Contact Us</a></li>
                             </ul>
                         </nav>

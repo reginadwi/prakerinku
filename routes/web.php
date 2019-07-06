@@ -11,12 +11,19 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/index', function () {
     return view('layouts/index');
 });
-Route::get('#', function () {
+Route::get('/contact', function () {
     return view('layouts/contact');
 });
+Route::get('/archive', function () {
+    return view('layouts/archive');
+});
+Route::get('/about', function () {
+    return view('layouts/about');
+});
+
 
 Auth::routes();
 
