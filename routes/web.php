@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('layouts/index');
 });
+Route::get('#', function () {
+    return view('layouts/contact');
+});
 
 Auth::routes();
 
