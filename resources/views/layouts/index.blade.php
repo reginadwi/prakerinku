@@ -60,7 +60,7 @@
                                     <li><a href="/archive">Archive</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="/index">Home</a></li>
+                                            <li><a href="/">Home</a></li>
                                             <li><a href="/archive">Archive</a></li>
                                             <li><a href="/video-post">Single Video Post</a></li>
                                             <li><a href="/single-post">Single Post</a></li>
@@ -73,7 +73,7 @@
                                     <li><a href="#">Mega</a>
                                         <div class="megamenu">
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="/index">Home</a></li>
+                                                <li><a href="/">Home</a></li>
                                                 <li><a href="/archive">Archive</a></li>
                                                 <li><a href="/video-post">Single Video Post</a></li>
                                                 <li><a href="/single-post">Single Post</a></li>
@@ -82,7 +82,7 @@
                                                 <li><a href="/login">Login</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="/index">Home</a></li>
+                                                <li><a href="/">Home</a></li>
                                                 <li><a href="/archive">Archive</a></li>
                                                 <li><a href="/video-post">Single Video Post</a></li>
                                                 <li><a href="/single-post">Single Post</a></li>
@@ -91,7 +91,7 @@
                                                 <li><a href="/login.html">Login</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="/index">Home</a></li>
+                                                <li><a href="/">Home</a></li>
                                                 <li><a href="/archive">Archive</a></li>
                                                 <li><a href="/video-post">Single Video Post</a></li>
                                                 <li><a href="/single-post">Single Post</a></li>
@@ -100,7 +100,7 @@
                                                 <li><a href="/login">Login</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="/index">Home</a></li>
+                                                <li><a href="/">Home</a></li>
                                                 <li><a href="/archive">Archive</a></li>
                                                 <li><a href="/video-post">Single Video Post</a></li>
                                                 <li><a href="/single-post">Single Post</a></li>

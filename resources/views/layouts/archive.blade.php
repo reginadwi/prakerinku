@@ -38,7 +38,7 @@
                 <nav class="classy-navbar justify-content-between" id="magNav">
 
                     <!-- Nav brand -->
-                    <a href="/index" class="nav-brand"><img src="{{('assets/frontend/img/core-img/logo.png')}}" alt=""></a>
+                    <a href="/" class="nav-brand"><img src="{{('assets/frontend/img/core-img/logo.png')}}" alt=""></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
@@ -57,11 +57,11 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li class="active"><a href="/index">Home</a></li>
+                                    <li class="active"><a href="/">Home</a></li>
                                     <li><a href="/archive">Archive</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="index">Home</a></li>
+                                            <li><a href="/">Home</a></li>
                                             <li><a href="/archive">Archive</a></li>
                                             <li><a href="/video-post">Single Video Post</a></li>
                                             <li><a href="/single-post">Single Post</a></li>
@@ -74,7 +74,7 @@
                                     <li><a href="/megamenu">Mega</a>
                                         <div class="megamenu">
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="/index">Home</a></li>
+                                                <li><a href="/">Home</a></li>
                                                 <li><a href="/archive">Archive</a></li>
                                                 <li><a href="/video-post">Single Video Post</a></li>
                                                 <li><a href="/single-post">Single Post</a></li>
@@ -83,7 +83,7 @@
                                                 <li><a href="/login">Login</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="/index">Home</a></li>
+                                                <li><a href="/">Home</a></li>
                                                 <li><a href="/archive">Archive</a></li>
                                                 <li><a href="/video-post">Single Video Post</a></li>
                                                 <li><a href="/single-post">Single Post</a></li>
@@ -92,7 +92,7 @@
                                                 <li><a href="/login">Login</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="/index">Home</a></li>
+                                                <li><a href="/">Home</a></li>
                                                 <li><a href="/archive">Archive</a></li>
                                                 <li><a href="/video-post">Single Video Post</a></li>
                                                 <li><a href="/single-post">Single Post</a></li>
@@ -101,7 +101,7 @@
                                                 <li><a href="/login">Login</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="/index">Home</a></li>
+                                                <li><a href="/">Home</a></li>
                                                 <li><a href="/archive">Archive</a></li>
                                                 <li><a href="/video-post">Single Video Post</a></li>
                                                 <li><a href="/single-post">Single Post</a></li>
@@ -159,7 +159,7 @@
                 <div class="col-12">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="/index"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                            <li class="breadcrumb-item"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
                             <li class="breadcrumb-item"><a href="#">Feature</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Archive by Category “TRAVEL”</li>
                         </ol>
@@ -601,7 +601,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                     <div class="col-12 col-sm-6">
                         <nav class="footer-nav">
                             <ul>
-                                <li><a href="/index">Home</a></li>
+                                <li><a href="/">Home</a></li>
                                 <li><a href="/Privacy">Privacy</a></li>
                                 <li><a href="/Advertisement">Advertisement</a></li>
                                 <li><a href="/contact">Contact Us</a></li>
