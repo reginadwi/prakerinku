@@ -12,7 +12,7 @@
     <title>Mag - Video &amp; Magazine HTML Template</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="{{('assets/frontend/img/core-img/r.icon')}}">
+    <link rel="icon" href="{{('assets/frontend/img/core-img/favicon.icon')}}">
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="{{('assets/frontend/style.css')}}">
@@ -232,7 +232,7 @@
                         <!-- Single Team Member -->
                         <div class="single-team-member d-flex align-items-center">
                             <div class="team-member-thumbnail">
-                                <img src="img/bg-img/38.jpg" alt="">
+                                <img src="img/bg-img/38.jpeg" alt="">
                                 <div class="social-btn">
                                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                                     <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -249,7 +249,7 @@
                         <!-- Single Team Member -->
                         <div class="single-team-member d-flex align-items-center">
                             <div class="team-member-thumbnail">
-                                <img src="img/bg-img/39.jpg" alt="">
+                                <img src="img/bg-img/39.jpeg" alt="">
                                 <div class="social-btn">
                                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                                     <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
