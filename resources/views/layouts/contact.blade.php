@@ -186,7 +186,12 @@
                         </div>
 
                         <div class="contact-information mb-30">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursus quam at scelerisque. Aliquam quis varius orci, vel tincidunt est. Proin ac tincidunti, atmots interdum erat. Maecenas neque lorem, aliquet in tempus non, efficitur ac neque.</p>
+                            <p>Aku tak ingin kau menjadi dilan.
+                                karena sehebat apapun dilan merangkai kata,
+                                sepandai apapun dia membuatmu tertawa,
+                                SEMUA PERCUMA.
+                                jika pada akhirnya milea bukan takdirnya:)
+                            </p>
 
                             <!-- Single Contact Info -->
                             <div class="single-contact-info d-flex align-items-center">
