@@ -337,7 +337,7 @@
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="footer-widget">
                         <!-- Logo -->
-                        <a href="index.html" class="foo-logo"><img src="{{('assets/frontend/img/core-img/logo2.png')}}" alt=""></a>
+                        <a href="/" class="foo-logo"><img src="{{('assets/frontend/img/core-img/logo2.png')}}" alt=""></a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <div class="footer-social-info">
                             <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
