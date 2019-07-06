@@ -303,7 +303,7 @@
 
                         <!-- Sidebar Widget -->
                         <div class="single-sidebar-widget">
-                            <a href="#" class="add-img"><img src="img/bg-img/add2.png" alt=""></a>
+                            <a href="/about" class="add-img"><img src="img/bg-img/add2.png" alt=""></a>
                         </div>
 
                         <!-- Sidebar Widget -->
