@@ -24,6 +24,9 @@ Route::get('/archive', function () {
 Route::get('/about', function () {
     return view('layouts/about');
 });
+Route::get('/submit-video', function () {
+    return view('layouts/submit-video');
+});
 
 
 Auth::routes();
