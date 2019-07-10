@@ -16,9 +16,16 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route group(['middleware'=>'cors'=>'cors'],function(){
+	//isi route disini
+});
 
 Route::resource('siswa','tugasController');
 Route::resource('Sekolah','SekolahController');
+
+
+
+
 
 
 
