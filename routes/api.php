@@ -19,9 +19,13 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::group(['middleware'=>'cors'],function(){
 	//isi route disini
 });
-
+Route::resource('categories', 'CategoryAPIController', [
+    'only' => ['index', 'show', 'store', 'update', 'destroy']
+]);
 Route::resource('siswa','tugasController');
 Route::resource('Sekolah','SekolahController');
+
+Route::resource('siswa2','Siswa2Controller');
 
 
 

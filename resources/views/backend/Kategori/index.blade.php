@@ -22,7 +22,7 @@
                 <tr>
                     <th>No.</th>
                     <th>nama kategori</th>
-                    <th>slug</th>
+                    
                     <th>Aksi</th>
                 </tr>
                 </thead>
@@ -32,7 +32,7 @@
                     <tr>
                         <td>{{ $no++ }}</td>
                         <td>{{ $datas->nama_kategori }}</td>
-                        <td>{{ $datas->slug }}</td>
+                       
                     </tr>
                   	
                           <th style="text-align: center;">

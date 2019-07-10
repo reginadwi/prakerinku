@@ -13,10 +13,7 @@
                     <label for="nama_kategori">Nama:</label>
                     <input type="text" class="form-control" id="" name="nama_kategori">
                 </div>
-                <div class="form-group">
-                    <label for="slug">slug</label>
-                    <input type="text" class="form-control" id="" name="slug">
-              
+            
                 <div class="form-group">
                     <button type="submit" class="btn btn-md btn-primary">simpan</button>
                    

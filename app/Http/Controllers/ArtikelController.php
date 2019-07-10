@@ -159,7 +159,7 @@ class ArtikelController extends Controller
     public function destroy($id)
     {
         $artikel = Artikel::findOrFail($id);
-        $blog =Artikel::findOrfail($id);
+     
         if ($artikel->foto) {
             $old_foto = $artikel->foto;
             $filepath = public_path()
