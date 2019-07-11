@@ -4,7 +4,7 @@ $(function () {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         }
     });
-    var alamat = 'api/siswa2'
+    var alamat = 'api/siswa';
 
     // Get Data Siswa
     $.ajax({
@@ -18,10 +18,10 @@ $(function () {
                     `
                     <li>${value.nama} <button class="btn btn-danger btn-sm hapus-data" data-id="${value.id}">Hapus</button></li>
                     `
-                )
-            })
+                );
+            });
         }
-    })
+    });
 
     // Simpan Data
     $(".tombol-simpan").click(function (simpan) {
@@ -42,8 +42,8 @@ $(function () {
             error: function (gagal) {
                 console.log(gagal)
             }
-        })
-    })
+        });
+    });
 
     // Hapus Data
     $(".data-siswa").on('click', '.hapus-data', function () {
@@ -63,6 +63,6 @@ $(function () {
             error: function (gagal) {
                 console.log(gagal)
             }
-        })
-    })
-})
+        });
+    });
+});

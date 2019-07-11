@@ -5,7 +5,11 @@
         <div class="col-12">
             <div class="card">
                 <h5 class="card-header">Data Tables Tag</h5><br>
-                <center>
+
+                    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+                     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" /
+                      <center>
                         <a href="{{ route('tag.create') }}"
                             class="la la-cloud-upload btn btn-info btn-rounded btn-floating btn-outline">&nbsp;Tambah Data
                         </a>
@@ -34,7 +38,11 @@
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 										<input type="hidden" name="_method" value="DELETE">
 										<button type="submit" class="zmdi zmdi-delete  btn-rounded btn-floating btn btn-dangerbtn btn-danger btn-outline"> Delete</button>
-									</form>
+									
+                                    </form>
+                                     
+                                    </body>
+                                    </html>
 								</td>
                             </tr>
                             @endforeach

@@ -8,17 +8,20 @@
                 <div class="card-header">Dashboard</div>
                 <div class="card-body">
                     {{-- <form action="">
-                    </form> --}}
+                     </form> --}}
                     <div class="form-group">
                         <label>masukan nama</label>
                         <input type="text" name="namasiswa" class="form-control" required>
                     </div>
+                    <form>
+                    
                     <div class="form-group">
                         <button class="btn btn-success tombol-simpan">Simpan</button>
                     </div>
                     <div>
                         <ul class="data-siswa">
                         </ul>
+                        </form>
                     </div>
                 </div>
             </div>

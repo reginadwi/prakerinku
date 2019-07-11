@@ -18,6 +18,8 @@
                                 <button type="submit" class="btn btn-outline-info">
                                     Simpan Data
                                 </button>
+                                <link href="path-ke-direktori-css/select2.min.css" rel="stylesheet" />
+                                <script src="path-ke-direktori-js/select2.min.js"></script>
                             </div>
                         </form>
                     </div>

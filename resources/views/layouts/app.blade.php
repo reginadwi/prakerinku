@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -35,6 +36,14 @@
                 <a class="navbar-brand" href="{{ url('/admin/tag') }}">
                   Tag
                   </a>
+                   <a class="navbar-brand" href="{{ url('/admin/siswa') }}">
+                  Siswa
+                  </a>
+                   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+
+  
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -85,7 +94,8 @@
             @yield('content')
         </main>
     </div>
-     <script src="{{('assets/frontend/js/jquery/jquery-2.2.4.min.js')}}"></script>
-    <script src="{{asset('js/siswa.js')}}"></script>
+      <script src="{{asset('js/app.js')}}"></script>
+    <script src="{{asset('js/app.js')}}"></script>
+    <script src="{{asset('js/app.js')}}"></script>
 </body>
 </html>

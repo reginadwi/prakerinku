@@ -25,7 +25,11 @@ Route::resource('categories', 'CategoryAPIController', [
 Route::resource('siswa','tugasController');
 Route::resource('Sekolah','SekolahController');
 
-Route::resource('siswa2','Siswa2Controller');
+Route::resource('admin/siswa','siswaController');
+Route::resource('admin/kategori','kategoriController');
+Route::resource('admin/tag','Tag');
+Route::resource('admin/artikel','ArtikelController');
+
 
 
 

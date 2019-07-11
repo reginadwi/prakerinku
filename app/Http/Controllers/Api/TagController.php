@@ -1,7 +1,9 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api;
+
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 use App\Tag;
 
 class TagController extends Controller
@@ -13,13 +15,14 @@ class TagController extends Controller
      */
     public function index()
     {
-        $tag =Tag::all();
-        return view('backend.Tag.index', compact('tag'));
+        $tag = Tag::all();
+        $response =[
+            'success'=> true,
+            'data'=>$tag,
+            'message'=>'Berhasil ditampilkan.'
+        ];
+        return response()->json($response, 200);
     }
-       
-  
-    
-
 
     /**
      * Show the form for creating a new resource.
@@ -28,7 +31,7 @@ class TagController extends Controller
      */
     public function create()
     {
-        return view('backend.tag.create');
+        //
     }
 
     /**
@@ -39,15 +42,12 @@ class TagController extends Controller
      */
     public function store(Request $request)
     {
-        $request->validate(['nama_tag'=>'required|unique:Tags']);
-
         $tag = new Tag();
-        $tag->nama_tag =$request->nama_tag;
-        $tag->slug= str_slug($request->nama_tag, '-');
+        $tag->nama = $request->namasiswa;
         $tag->save();
-
-        return redirect()->route('tag.index');
-
+        $response =[
+        ];
+        return response()->jsnon($response, 200);
     }
 
     /**
@@ -69,8 +69,7 @@ class TagController extends Controller
      */
     public function edit($id)
     {
-        $tag = Tag::findOrFail($id);
-        return view('backend.tag.edit', compact('tag'));
+        //
     }
 
     /**
@@ -82,14 +81,8 @@ class TagController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $tag =Tag::findOrFail($id);
-        
-        $tag->nama_tag =$request->nama_tag;
-        $tag->slug= str_slug($request->nama_tag, '-');
-        $tag->save();
-
-        return redirect()->route('tag.index');
-}
+        //
+    }
 
     /**
      * Remove the specified resource from storage.
@@ -100,6 +93,11 @@ class TagController extends Controller
     public function destroy($id)
     {
         $tag = Tag::findOrFail($id)->delete();
-        return redirect()->route('tag.index');
+        $respon = [
+            'success'=> true,
+            'data'=>$tag,
+            'message'=>'Berhasil dihapus.'
+        ];
+        return response()->json($response, 200);
     }
 }
