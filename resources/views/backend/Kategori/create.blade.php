@@ -7,7 +7,7 @@
             <!-- Remove This Before You Start -->
             <h1>Tambah Kontak</h1>
             <hr>
-            <form action="{{ route('Kategori.store') }}" method="post">
+            <form action="{{ route('kategori.store') }}" method="post">
                 {{ csrf_field() }}
                 <div class="form-group">
                     <label for="nama_kategori">Nama:</label>

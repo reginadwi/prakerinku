@@ -25,7 +25,7 @@
             @endif
             <hr>
             <div class="pull-nght">
-            <a class="btn-btn-sm-btn-primary" href="{{route('Kategori.create')}}">Tambah Data</a>
+            <a class="btn-btn-sm-btn-primary" href="{{route('kategori.create')}}">Tambah Data</a>
             	
             </div>
             <table class="table table-bordered">

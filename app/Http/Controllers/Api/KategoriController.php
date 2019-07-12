@@ -41,7 +41,7 @@ class KategoriController extends Controller
      */
     public function store(Request $request)
     {
-        $Kategori = new Kategori();
+        $Kategori = new kategori();
         $Kategori->nama = $request->namasiswa;
         $Kategori->save();
         $Response = [

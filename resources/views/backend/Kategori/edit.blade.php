@@ -7,7 +7,7 @@
             <!-- Remove This Before You Start -->
             <h1>Edit Category</h1>
             <hr>
-            <form action="{{route('Kategori.update',$kategori->id)}}" method="post" enctype="multipart/form-data" >
+            <form action="{{route('kategori.update',$kategori->id)}}" method="post" enctype="multipart/form-data" >
             <input type="hidden" name="_method" value="PATCH">
                 {{csrf_field()}}
                <div class="form-group">
