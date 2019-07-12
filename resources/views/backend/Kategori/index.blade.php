@@ -1,4 +1,16 @@
 @extends('layouts.app')
+
+@section('css')
+        <link rel="stylesheet" href="{{asset('assets/backend/assets/vendor/datatables.net-bs4/css/dataTables.bootstrap4.css')}}">
+@endsection
+
+@section('js')
+        <script src="{{asset('assets/backend/assets/vendor/datatables.net/js/jquery.dataTables.js')}}"></script>
+        <script src="{{asset('assets/backend/assets/vendor/datatables.net-bs4/js/dataTables.bootstrap4.js')}}"></script>
+        <script src="{{asset('assets/backend/assets/js/components/datatables-init.js')}}"></script>
+@endsection
+
+
 @section('content')
     <!-- Main Section -->
     <section class="main-section">
@@ -34,17 +46,17 @@
                         <td>{{ $datas->nama_kategori }}</td>
                        
                     </tr>
-                  	
-                          <th style="text-align: center;">
-                   		<form action="{{route('kategori.destroy',$datas->id)}}" 
-                        method="post">
+                    <td style="text-align: ;">
+                  	 <form action="{{route('kategori.destroy', $datas->id)}}" method="post">
                         {{csrf_field()}}
-                   		<a href="{{route('kategori.edit',$datas->id)}}" class="btn-btn-sm-btn-primary">Edit</a>
-                          <th style="text-align: center;">
-                   		<input type="hidden" name="_method" value="DELETE">
-                   		<button type="submit" title="DELETE" class="btn-btn-sm-btn-primary">Delete</button>
-
-                   </td>
+                            <a href="{{route('kategori.edit', $datas->id)}}"
+                                        class="zmdi zmdi-edit btn btn-warning btn-rounded btn-floating btn-outline"> Edit
+                                         </a>
+                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             <input type="hidden" name="_method" value="DELETE">
+                              <button type="submit" class="zmdi zmdi-delete btn-rounded btn-floating btn btn-dangerbtn btn-danger btn-outline"> Delete</button>
+                                    
+                              </form>
                 @endforeach
                 </tbody>
             </table>

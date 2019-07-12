@@ -39,27 +39,28 @@
                     <th>Penulis</th>
                     <th>Konten</th>
                     <th>Foto</th>
+                    <th>User</th>
                     <th style="text-align: center;">Aksi</th>
                 </tr>
                 </thead>
                 <tbody>
                 @php $no = 1; @endphp
-                @foreach($artikel as $data)
+                @foreach($artikel as $datas)
                     <tr>
                         <td>{{ $no++ }}</td>
-                        <td>{{ $data->judul }}</td>
-                        <td>{{ $data->slug }}</td>
-                        <th>{{$data->kategori->nama_kategori}}</th>
-                        <td>{{$data->user->name}}</td>
-                        <td>{{$data->konten}}</td>
-                      <td><img src="{{asset('assets/img/artikel/' .$data->foto. '')}}"
+                        <td>{{ $datas->judul }}</td>
+                        <td>{{ $datas->slug }}</td>
+                        <th>{{$datas->kategori->nama_kategori}}</th>
+                        <td>{{$datas->user->name}}</td>
+                        <td>{{$datas->konten}}</td>
+                      <td><img src="{{asset('assets/img/artikel/' .$datas->foto. '')}}"
                                     style="width:250px; height:250px;" alt="Foto"></td>
                     </tr>
                   	<td style="text-align: center;"></td>
-                   		<form action="{{route('artikel.destroy',$data->id)}}" method="post">
+                   		<form action="{{route('artikel.destroy',$datas->id)}}" method="post">
                    		{{csrf_field()}}
    					    <td style="text-align: center;">
-                   		<a href="{{route('artikel.edit',$data->id)}}" class="btn-btn-sm-btn-primary">Edit</a>
+                   		<a href="{{route('artikel.edit',$datas->id)}}" class="btn-btn-sm-btn-primary">Edit</a>
                    		<input type="hidden" name="_method" value="DELETE">
                    		<button type="submit" title="DELETE" class="btn-btn-sm-btn-primary">Delete</button>
 

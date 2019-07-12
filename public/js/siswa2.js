@@ -4,9 +4,9 @@ $(function () {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         }
     });
-    var alamat_kategori = 'api/kategori'
-    var alamat_tag = 'api/tag'
-    var alamat_artikel = 'api/artikel'
+    var alamat_kategori = 'api/admin/Kategori'
+    var alamat_tag = 'api/admin/Tag'
+    var alamat_artikel = 'api/admin/Artikel'
 
     // kategori
     // Get Data Siswa
@@ -232,9 +232,6 @@ $(".table-tag").on('click', '.hapus-data-tag', function () {
     })
 })
 })
-
-
-
 
 var modal = document.getElementById('id01');
 // When the user clicks anywhere outside of the modal, close it

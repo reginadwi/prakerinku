@@ -26,9 +26,9 @@ Route::resource('siswa','tugasController');
 Route::resource('Sekolah','SekolahController');
 
 Route::resource('admin/siswa','siswaController');
-Route::resource('admin/kategori','kategoriController');
-Route::resource('admin/tag','Tag');
-Route::resource('admin/artikel','ArtikelController');
+Route::resource('admin/kategori','KategorisController');
+Route::resource('admin/tag','TagsController');
+Route::resource('admin/artikel','ArtikelsController');
 
 
 
