@@ -13,7 +13,7 @@ class CreateKategorisTable extends Migration
      */
     public function up()
     {
-        Schema::create('kategoris', function (Blueprint $table) {
+        Schema::create('Kategoris', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('nama_kategori');
             $table->string('slug');
@@ -28,6 +28,6 @@ class CreateKategorisTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('Kategoris');
+        Schema::dropIfExists('kategoris');
     }
 }
