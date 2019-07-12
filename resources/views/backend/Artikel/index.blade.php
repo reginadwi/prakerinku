@@ -36,10 +36,10 @@
                     <th>Judul</th>
                     <th>slug</th>
                     <th>Kategori</th>
+                  
                     <th>Penulis</th>
                     <th>Konten</th>
                     <th>Foto</th>
-                    <th>User</th>
                     <th style="text-align: center;">Aksi</th>
                 </tr>
                 </thead>
