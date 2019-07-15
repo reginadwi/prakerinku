@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
-use App\Kategori;
+use App\kategori;
 
 class KategoriController extends Controller
 {
@@ -13,7 +13,7 @@ class KategoriController extends Controller
      */
     public function index()
     {
-        $kategori =Kategori::all();
+        $kategori =kategori::orderBy('created_at', 'desc')->get();
         return view('backend.kategori.index', compact('kategori'));
     }
 
@@ -35,7 +35,7 @@ class KategoriController extends Controller
      */
     public function store(Request $request)
     {
-        $request->validate(['nama_kategori'=>'required|unique:Kategoris']);
+        $request->validate(['nama_kategori'=>'required|unique:kategoris']);
 
         $kategori = new kategori();
         $kategori->nama_kategori =$request->nama_kategori;
@@ -66,7 +66,7 @@ class KategoriController extends Controller
     public function edit($id)
     {
         $kategori = kategori::findOrFail($id);
-        return view('backend.Kategori.edit', compact('kategori'));
+        return view('backend.kategori.edit', compact('kategori'));
     }
 
     /**
@@ -95,7 +95,7 @@ class KategoriController extends Controller
      */
     public function destroy($id)
     {
-        $kategori = Kategori::findOrFail($id)->delete();
+        $kategori = kategori::findOrFail($id)->delete();
         return redirect()->route('kategori.index');
     }
 }
