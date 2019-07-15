@@ -99,3 +99,4 @@ class KategoriController extends Controller
         return redirect()->route('kategori.index');
     }
 }
+//cek
