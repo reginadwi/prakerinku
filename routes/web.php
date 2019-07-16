@@ -32,7 +32,7 @@ Route::get('/admin', function () {
     return view('welcome');
 });
 
-Route::resource('admin/kategori','KategoriController'); 
+Route::resource('admin/kategori','kategoriController'); 
 Route::resource('admin/artikel','ArtikelController'); 
 Route::resource('admin/tag','TagController'); //tambahkan baris ini
 
